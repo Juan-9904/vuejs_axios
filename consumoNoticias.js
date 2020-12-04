@@ -44,7 +44,7 @@ new Vue({
 
 
         //axios.get('http://www.omdbapi.com/?i=tt1285016&type=movie&apikey=23daade9'
-        axios.get('http://www.omdbapi.com/?i=tt1285016&type=movie&apikey=23daade9'
+        axios.get('https://raw.githubusercontent.com/luismescobarf/vuejs_axios/noticias/top-headlines.json'
         
         //{headers: {"Access-Control-Allow-Origin": "*"}}
         
