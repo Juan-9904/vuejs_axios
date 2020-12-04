@@ -13,19 +13,24 @@
 
 	<!-- <img src="https://files.antena2.com/antena2/public/2020-12/000_8WF4XD_0.jpg "> -->
 
+	<div id="appPrecipitaciones" class="container"> 
+		<h1> Precipitaciones </h1>		
+		<li v-for="precip in precipitaciones">
+			<component-precipitacion v-bind:precipitacion="precip"></component-precipitacion>			
+		</li>
+
+	</div>
+
 	<div id="newsColombia" class="container"> 
 		<h1> Noticias </h1>
 
 		<li v-for="noti in noticias">
-			<component-noticia v-bind:noticia="noti"></component-noticia>
-			
+			<component-noticia v-bind:noticia="noti"></component-noticia>			
 		</li>
-
 
 		<pre>
 			{{ raw_noticias }}
 		</pre>
-
 
 	</div>
 
@@ -49,13 +54,11 @@
 
 	
 
-	
-	
-
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script src="./app.js"></script>
 	<script src="./consumoNoticias.js"></script>
+	<script src="./precipitacionesBog.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,50 @@
+Enlaces de Interés
+------------------
+
+https://www.atlassian.com/es/git/tutorials/syncing/git-pull
+
+https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
+
+https://medium.com/@pabloulloacastro/react-descubriendo-componentes-c158959116fe
+
+https://blog.logrocket.com/axios-or-fetch-api/
+
+//Leyendo de un json con componentes
+https://blog.nubecolectiva.com/como-leer-un-archivo-json-con-vue-js-2-6-11-tabla-de-bootstrap-4/
+
+
+//Enlaces de librerías e implementaciones
+https://cdnjs.com/
+
+//Artículo helados
+https://fernando-gaitan.com.ar/vue-js-y-axios/
+
+//GitHub helados
+https://github.com/fernandoggaitan/vuejs_axios
+
+//Resolviendo inconveniente axios api noticias
+https://github.com/axios/axios/issues/853
+
+//Paso a paso axios
+https://codingpotions.com/vue-axios
+
+//VueYa!
+https://www.tutorialesprogramacionya.com/vueya/
+
+//Componentes + Axious
+https://codesandbox.io/s/vue-axios-http-get-request-examples-ei7l8?file=/app/GetRequestErrorHandling.vue
+
+//ES6-string (para los componentes)
+https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html
+
+https://newsapi.org/
+
+https://dev.socrata.com/foundry/www.datos.gov.co/m84s-22dd
+
+https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Bogota09-19/5uav-9n4h
+
+https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Bogota09-19/5uav-9n4h
+
+
+
+
