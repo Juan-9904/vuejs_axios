@@ -1,13 +1,11 @@
 //41fb1ddf9692462095fc19a9f2b93223
-/*
-Vue.component('component-helado', {
-    props: ['helado'],
+
+Vue.component('component-noticia', {
+    props: ['noticia'],
     template: `
-        <div>					
-            <button class="btn btn-success" v-on:click="agregar(helado)" v-if="!helado.seleccionado"> + </button>
-            <button class="btn btn-danger" v-on:click="eliminar(helado)" v-if="helado.seleccionado"> - </button>
-            <span> {{ helado.sabor }} </span>
-            <hr />
+        <div>
+            <span> {{ noticia.title }} </span>
+            <span> {{ noticia.urlToImage }} </span>           
         </div>
     `,
     methods: {
@@ -19,7 +17,7 @@ Vue.component('component-helado', {
         }
     }
 })
-*/
+
 
 new Vue({
     el: '#newsColombia',
@@ -31,7 +29,7 @@ new Vue({
         
     },*/
     created: function(){
-        var that = this;
+        var contexto = this;
         //axios.get('http://newsapi.org/v2/everything?q=bitcoin&from=2020-11-04&sortBy=publishedAt&apiKey=41fb1ddf9692462095fc19a9f2b93223'
         /*
         axios.get('http://newsapi.org/v2/top-headlines?country=co&category=sports&apiKey=41fb1ddf9692462095fc19a9f2b93223',
@@ -50,7 +48,37 @@ new Vue({
         
         )
         .then(function (response) {
-            that.raw_noticias = response.data;
+            contexto.raw_noticias = response.data;
+            contexto.noticias = contexto.raw_noticias.articles;
+
+            /*
+            var numbers = [1, 5, 10, 15];
+            contexto.noticias = contexto.noticias.map(function(x.urlToImage) {
+               return x.urlToImage;
+            });
+            */
+            
+            /*
+           contexto.noticias = contexto.noticias.forEach(function(x) {
+            //x.urlToImage = encodeURI(x.urlToImage);
+            x.urlToImage = 'hola';
+            
+            });*/
+
+            //console.log(contexto.noticias);
+
+
+           //contexto.noticias = contexto.noticias.map(x => ({'urlToImage': encodeURI(x.urlToImage)+'hola' }));
+           
+           //contexto.noticias = contexto.noticias.map(x => ({'urlToImage': 'hola' }));
+
+            //const ret = contexto.noticias.map( (u.urlToImage) , encodeURI(u.urlToImage));
+
+
+            // doubles is now [2, 10, 20, 30]
+            // numbers is still [1, 5, 10, 15]
+
+
             //this.raw_noticias = that.noticias;
         })
         .catch(function (error) {

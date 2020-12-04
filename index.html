@@ -11,8 +11,17 @@
 </head>
 <body>
 
+	<!-- <img src="https://files.antena2.com/antena2/public/2020-12/000_8WF4XD_0.jpg "> -->
+
 	<div id="newsColombia" class="container"> 
 		<h1> Noticias </h1>
+
+		<li v-for="noti in noticias">
+			<component-noticia v-bind:noticia="noti"></component-noticia>
+			
+		</li>
+
+
 		<pre>
 			{{ raw_noticias }}
 		</pre>
