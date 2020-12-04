@@ -10,16 +10,7 @@ Vue.component('component-noticia', {
     `,
     methods: {
 
-        /*
-
-        agregar: function(p_helado){
-            p_helado.seleccionado = true;
-        },
-        eliminar: function(p_helado){
-            p_helado.seleccionado = false;
-        }
-
-        */
+        
     }
 })
 
